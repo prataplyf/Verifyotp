@@ -38,7 +38,7 @@ def result():
         else:
             s = smtplib.SMTP('smtp.gmail.com', 587) 
             s.starttls() 
-            s.login("vacancykey123@gmail.com", "@vacancyKey1")                
+            s.login("xxxxxxxx@gmail.com", "xxxxxxxxxxx")                
             otpmessage = "Your OTP " + str(otp)
             s.sendmail("vacancykey123@gmail.com", email, otpmessage)
             print("sent mail")
