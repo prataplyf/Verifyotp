@@ -6,7 +6,7 @@ import pymongo # for connect with database
 from pymongo import MongoClient
 
 
-myclient = MongoClient("mongodb+srv://pratalpyf:ashish1234@cluster0-rwgat.mongodb.net/test?retryWrites=true&w=majority")
+myclient = MongoClient("mongodb+srv://<dbname>:<password>@cluster0-rwgat.mongodb.net/test?retryWrites=true&w=majority")
 mydb = myclient.prataplyf
 mycol = mydb["emails"]
 
